@@ -7,12 +7,13 @@
  // 	console.log(q);
  // }
 
-// Get Even
+// Get Even- finished problem
  for( let q = 0; q <= 200; q++){
  	if((q % 2) === 0) { 
  		console.log(q)
 
  	}
 }
+
 
 
