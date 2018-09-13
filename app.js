@@ -33,56 +33,32 @@
 // }
 
 // Fizz Buzz
-for( let i = 1; i<=100; i++) {
-	if( i % 15 === 0)
-		console.log("fizzbuzz");
+// for( let i = 1; i<=100; i++) {
+// 	if( i % 15 === 0)
+// 		console.log("fizzbuzz");
 
-else if( i % 3 === 0)
-	console.log("fizz");
-else if ( i % 5===0)
-	console.log("buzz");
-else console.log(i);
+// else if( i % 3 === 0)
+// 	console.log("fizz");
+// else if ( i % 5===0)
+// 	console.log("buzz");
+// else console.log(i);
 
-}
-
-
+// }
 
 
 
 
-// for(let i = 1; i <= 100; i++) 
+
 
 	
-// if ( i % 3 === 0 ) { 
-// console.log("Fizz");
-// }
-// else if (i % 5 ===0){
+Yell at Ninja Turtles
+const ninjaTurtles = ['Donatello', 'Lenardo', 'Raphael', 'Michaelangelo'];
+for(let i = 0; i < ninjaTurtles.length; i++) {
 
-
-// console.log("Buzz");
-// }
-
-// else if (i % 3 === 0 && i % 5 === 0){
-// console.log("FizzBuzz");
-//  }else  {
- 
-// console.log(i);
-// }
-
-
-// if (i % 3 === 0 && i % 5 === 0){
-// console.log("FizzBuzz");
-// } else 
-
-	
-// Yell at Ninja Turtles
-// const ninjaTurtles = ['Donatello', 'Lenardo', 'Raphael', 'Michaelangelo'];
-// for(let i = 0; i < ninjaTurtles.length; i++) {
-
-// 	console.log(ninjaTurtles[i].toUpperCase());{
-// 	}
-// }	
-//add uppercase to console.log!
+	console.log(ninjaTurtles[i].toUpperCase());{
+	}
+}	
+add uppercase to console.log!
 
 
 
