@@ -87,12 +87,12 @@ const kristynsCloset = [
   "yellow knit hat",
   "marshmallow peeps"
 ];
-const kristynsShoe = [];
-kristynsShoe.push(kristynsCloset[0])
-kristynsCloset.splice(0,1);
+// const kristynsShoe = [];
+// kristynsShoe.push(kristynsCloset[0])
+// kristynsCloset.splice(0,1);
 
 
-console.log(kristynsShoe)
+// console.log(kristynsShoe)
 
 // Dress Em Up
 // I had a lot of help with this
@@ -118,34 +118,39 @@ const thomsCloset = [
 
 
 
-const krystOut1 = "Kristyn's gonna wear a " + kristynsCloset[2] + "," + kristynsCloset[1] + ", and " + kristynsCloset[5];
-console.log(krystOut1);
+// const krystOut1 = "Kristyn's gonna wear a " + kristynsCloset[2] + "," + kristynsCloset[1] + ", and " + kristynsCloset[5];
+// console.log(krystOut1);
 
-const krystOut2 ="Kristyn's gonna wear a " + kristynsCloset[3] + "," + kristynsCloset[4] + ", and " + kristynsCloset[6];
-console.log(krystOut2);
+// const krystOut2 ="Kristyn's gonna wear a " + kristynsCloset[3] + "," + kristynsCloset[4] + ", and " + kristynsCloset[6];
+// console.log(krystOut2);
 
-const krystOut3 ="Kristyn's gonna wear a " + kristynsCloset[0] + "," + kristynsCloset[5] + ", and " + kristynsCloset[4]; 
-console.log(krystOut3);
-
-
-const thomOut1 = "Thom's gonna wear a " + thomsCloset[0][3] + "," + thomsCloset[2][2] + ", and " +thomsCloset[1][1];
-console.log(thomOut1);
-
-const thomOut2 = "Thom's gonna wear a " + thomsCloset[0][2] + "," + thomsCloset[1][0] + ", and " +thomsCloset[2][0];
-console.log(thomOut2);
-
-const thomOut3 = "Thom's gonna wear a " + thomsCloset[0][0] + "," + thomsCloset[1][2] + ", and " +thomsCloset[2][1];
-console.log(thomOut3);
+// const krystOut3 ="Kristyn's gonna wear a " + kristynsCloset[0] + "," + kristynsCloset[5] + ", and " + kristynsCloset[4]; 
+// console.log(krystOut3);
 
 
+// const thomOut1 = "Thom's gonna wear a " + thomsCloset[0][3] + "," + thomsCloset[2][2] + ", and " +thomsCloset[1][1];
+// console.log(thomOut1);
 
+// const thomOut2 = "Thom's gonna wear a " + thomsCloset[0][2] + "," + thomsCloset[1][0] + ", and " +thomsCloset[2][0];
+// console.log(thomOut2);
+
+// const thomOut3 = "Thom's gonna wear a " + thomsCloset[0][0] + "," + thomsCloset[1][2] + ", and " +thomsCloset[2][1];
+// console.log(thomOut3);
+
+// Dirty Laundry
+// Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
 
 	
-	
+	// for(i = 1; i <kristynsCloset.length; i++){
+ //    console.log("WHIRR: Now washing" + kristynsCloset[i] + ".")
+ //  }
 
+// Inventory
+// Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
 
-
-
+for( g = 0; g < thomsCloset.length; g++) {
+  console.log(thomsCloset[g]); 
+}
 
 
 
